@@ -1,3 +1,5 @@
+Automaticly resets the playback-speed of the Twitch-Video-Player to prevent audio bugs in low-latency-mode.
+
 How to install:
 
 - Create the folder "twitch-speed-fix" somewhere you can remember and download the given files into that folder
