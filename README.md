@@ -9,3 +9,4 @@ How to install:
 - Navigate to the location of the extension folder and select it
 
 Thanks for using my extension, i hope it helps with what its meant to do! <3
+Its Vibecoded. Im Sorry :/ 
