@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 250px; padding: 10px; font-family: 'Segoe UI', sans-serif; background: #5e5c56; color: white; }
+    button { width: 100%; cursor: pointer; padding: 10px; border: none; border-radius: 4px; font-weight: bold; transition: 0.2s; }
+    #logContainer { 
+      margin-top: 10px; 
+      background: #f0eee5; 
+      border-radius: 4px; 
+      height: 150px; 
+      overflow-y: auto; 
+      font-size: 11px; 
+      padding: 5px;
+      border: 1px solid #303032;
+      display: none; /* Nur sichtbar wenn Debug ON */
+    }
+    .log-entry { border-bottom: 1px solid #ffffff; padding: 2px 0; color: #adadb8; }
+    .log-entry span { color: #000000; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <button id="toggleDebug">Debug Mode: OFF</button>
+  <div id="logContainer"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
